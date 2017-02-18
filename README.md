@@ -9,3 +9,5 @@ trimestre de la asignatura de Lenguaje de Marcas
 3. Muestra los hoteles que tienen una estrella.
 
 4. Introducir el nombre del hotel y muestre su pagina web.
+
+5. Introduce un codigo de hotel y que muestre cuantas estrellas tiene el hotel.
