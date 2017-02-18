@@ -7,3 +7,5 @@ trimestre de la asignatura de Lenguaje de Marcas
 2. Lista los hoteles por precio ("Alto","Medio","Economico").
 
 3. Muestra los hoteles que tienen una estrella.
+
+4. Introducir el nombre del hotel y muestre su pagina web.
