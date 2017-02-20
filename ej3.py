@@ -5,6 +5,7 @@ with open ('hoteles.json') as data_file:
 
 estrellas=int(raw_input("Busqueda de hoteles por estrellas: "))
 
+
     for hoteles in data["resources"]:
         if hoteles["dc:title"].count("*")==estrellas:
             print hoteles["dc:title"]
