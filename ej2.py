@@ -8,9 +8,9 @@ economico=[]
 for hoteles in data["resources"]:
     if hoteles["lpgc:precio"]=="Economico":
         economico.append(hoteles["dc:title"])
-    if hoteles["lpgc:precio"]=="medio" or hoteles["lpgc:precio"]=="Precio medio":
+    if hoteles["lpgc:precio"]=="medio":
         medio.append(hoteles["dc:title"])
-    if hoteles["lpgc:precio"]=="Alto" or hoteles["lpgc:precio"]=="alto":
+    if hoteles["lpgc:precio"]=="Alto":
         alto.append(hoteles["dc:title"])
 
 print "Hoteles con precio ECONOMICO"
