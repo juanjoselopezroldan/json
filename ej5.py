@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+#Introduce un codigo de hotel y que muestre el nombre del hotel, la localizacion y una descripcion del mismo
+
 import json
 with open ('hoteles.json') as data_file:
     data=json.load(data_file)
