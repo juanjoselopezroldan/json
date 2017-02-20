@@ -24,3 +24,8 @@ for hoteles in data["resources"]:
             print "El hotel",hoteles["dc:title"]," no tiene url"
         elif hoteles["lpgc:web"] != "":
             print "El hotel",hoteles["dc:title"]," tiene la siguiente url: ",hoteles["lpgc:web"]
+    if hoteles["dc:title"][+2:].upper()==nombre:
+        if hoteles["lpgc:web"] == "":
+            print "El hotel",hoteles["dc:title"]," no tiene url"
+        elif hoteles["lpgc:web"] != "":
+            print "El hotel",hoteles["dc:title"]," tiene la siguiente url: ",hoteles["lpgc:web"]
