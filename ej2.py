@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+#Lista los hoteles por precio ("Alto","Medio","Economico")
 
 import json
 with open ('hoteles.json') as data_file:
