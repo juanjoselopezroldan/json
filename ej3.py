@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+#Introducir las estrellas y mostrar los hoteles
+
 import json
 with open ('hoteles.json') as data_file:
     data=json.load(data_file)
