@@ -10,4 +10,4 @@ trimestre de la asignatura de Lenguaje de Marcas
 
 4. Introducir el nombre del hotel y muestre su pagina web.
 
-5. Introduce un codigo de hotel y que muestre el nombre del hotel y una descripcion del mismo.
+5. Introduce un codigo de hotel y que muestre el nombre del hotel, la localizacion y una descripcion del mismo.
