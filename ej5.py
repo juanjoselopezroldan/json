@@ -10,5 +10,5 @@ for hoteles in data["resources"]:
         print hoteles["dc:description"]
         print "Localizacion: lat ",hoteles["geo:lat"]," y log ",hoteles["geo:long"]
         exit()
-    elif hoteles["dc:identifier"]!=cod:
+if hoteles["dc:identifier"]!=cod:
         print "Error, codigo no encontrado"
