@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+#Introducir el nombre del hotel y muestre su pagina web
+
 import json
 with open ('hoteles.json') as data_file:
     data=json.load(data_file)
