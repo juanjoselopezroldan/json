@@ -9,3 +9,4 @@ for hoteles in data["resources"]:
         print hoteles["dc:title"]
         print hoteles["dc:description"]
         print "Localizacion: lat ",hoteles["geo:lat"]," y log ",hoteles["geo:long"]
+        exit()
