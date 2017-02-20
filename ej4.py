@@ -10,3 +10,7 @@ for hoteles in data["resources"]:
         else:
             print "El hotel",hoteles["dc:title"]," tiene la siguiente url: ",hoteles["lpgc:web"]
     if hoteles["dc:title"][+5:].upper()==nombre:
+        if hoteles["lpgc:web"] == "":
+            print "El hotel",hoteles["dc:title"]," no tiene url"
+        elif hoteles["lpgc:web"] != "":
+            print "El hotel",hoteles["dc:title"]," tiene la siguiente url: ",hoteles["lpgc:web"]
