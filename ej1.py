@@ -10,6 +10,14 @@ e5=0
 for hoteles in data["resources"]:
     if hoteles["dc:title"].count("*")==5:
         e5=e5+1
+    elif hoteles["dc:title"].count("*")==4:
+        e4=e4+1
+    elif hoteles["dc:title"].count("*")==3:
+        e3=e3+1
+    elif hoteles["dc:title"].count("*")==2:
+        e2=e2+1
+    elif hoteles["dc:title"].count("*")==1:
+        e1=e1+1
 
 
 print "Hay",e5,"Hoteles de 5 estrellas"
